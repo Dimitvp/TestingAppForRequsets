@@ -21,7 +21,7 @@ namespace WebApplicationForTestingRequests
             );
 
             config.Routes.MapHttpRoute(
-                name: "Action",
+                name: "DefaultApi2",
                 routeTemplate: "api/{controller}/{action}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
